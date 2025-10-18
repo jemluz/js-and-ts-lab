@@ -19,3 +19,11 @@ var und;
 // 1) protect property from overwrite
 // 2) hide on enumeration (for passwords for example)
 var ID1 = Symbol("id");
+
+// DERIVED DATA
+
+// Object
+var obj = { name: 'John', age: 21 };
+
+// You can delete properties with:
+// delete obj.name;
