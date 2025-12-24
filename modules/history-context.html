@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How it was before modules - History Context</title>
+  </head>
+  <body>
+    <h1>At 90s and early 2000s</h1>
+    <ul>
+      <li>JavaScript only ran in the browser.</li>
+      <li>Scripts were included using &lt;script&gt; tags</li>
+      <li>All scripts shared the same global scope</li>
+      <li>This often led to naming conflicts and maintenance issues</li>
+      <li>One file could break another</li>
+      <li>The order of the scripts mattered</li>
+      <li>Nothing was really “private”</li>
+    </ul>
+
+    <h2>📜 Without modules (until ~2009)</h2>
+    <ul>
+      <li>&lt;script&gt; in browser</li>
+      <li>Everything global</li>
+      <li>Manual order</li>
+    </ul>
+
+    <h2>📦 CommonJS (2009)</h2>
+    <ul>
+      <li>Emerges with Node.js</li>
+      <li>require / module.exports</li>
+      <li>Server-side</li>
+      <li>Synchronous</li>
+    </ul>
+
+    <h2>🌐 AMD / RequireJS (2009–2012)</h2>
+    <ul>
+      <li>Focused on the browser</li>
+      <li>Asynchronous loading</li>
+      <li>Runtime loader</li>
+    </ul>
+
+    <h2>🧪 UMD (2011–2014)</h2>
+    <ul>
+      <li>Compatibility</li>
+      <li>Works in AMD + CommonJS</li>
+      <li>Hybrid code</li>
+    </ul>
+
+    <h2>🏆 ES Modules – ESM (2015)</h2>
+    <ul>
+      <li>Official JS standard (ES6)</li>
+      <li>import / export</li>
+      <li>Browser + Node</li>
+    </ul>
+
+    <h2>🟦 TypeScript Modules (2012 → today)</h2>
+    <ul>
+      <li>Same syntax as ESM</li>
+      <li>Types + tooling</li>
+      <li>Compiles to JS</li>
+    </ul>
+
+    <h2>⚡ Era of Modern Bundlers (2016 → today)</h2>
+    <ul>
+      <li>Webpack → Rollup → Vite / esbuild</li>
+      <li>Tree-shaking</li>
+      <li>Build-time optimization</li>
+    </ul>
+
+    <h2>🧠 Today (2020+)</h2>
+    <ul>
+      <li>ESM + TypeScript</li>
+      <li>Fast bundling</li>
+      <li>Dynamic imports (import())</li>
+    </ul>
+
+    <code>
+      <script src="a.js"></script>
+      <script src="b.js"></script>
+    </code>
+
+    <code>
+      // a.js
+      var count = 0;
+
+      // b.js
+      count = count + 1; // invisible dependency on a.js
+    </code>
+</body>
+</html>
