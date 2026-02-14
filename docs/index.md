@@ -13,10 +13,10 @@ This repository is a didactic reference for JavaScript and TypeScript syntax, be
 ## Content map
 
 - control-structures: conditionals and loops
-- data-storage: variables, destructuring, shorthand, template literals
+- data-storage: variables, destructuring, shorthand, template literals, types
 - functions: params, return, arrow, rest, spread
 - modules: CommonJS, AMD, ESM, bundlers, tree shaking, Node support
-- object-oriented: classes, access modifiers, getters/setters, overrides
+- object-oriented: classes, access modifiers, getters/setters, overrides, interfaces
 - operators: arithmetic, assignment, comparison, equality, logical, bitwise
 - scopes: global, function, block scope examples
 

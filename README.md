@@ -1,7 +1,5 @@
 # js-and-ts-lab
 
-## EN
-
 Didactic notes and examples for JavaScript and TypeScript syntax, best practices, and topic evolution.
 
 Start here: [docs/index.md](docs/index.md)
