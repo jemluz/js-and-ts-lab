@@ -22,13 +22,17 @@ Value:   | "red"  | "green" | "blue" | "yellow" |
 ## Common Use Cases
 
 1. **Storing Collections of Data**: Arrays are used to store multiple items of the same type together, like a list of student scores or names.
-2. **Implementing Data Structures**: Arrays serve as a base for other complex data structures like stacks, queues, matrices, and heaps.
+2. **Implementing Data Structures**: Arrays serve as a base for other complex data structures like **stacks, queues, matrices, and heaps**.
 3. **Iterating Over Data**: They allow easy traversal of items for searching, sorting, and applying operations across all elements.
 
 ## Trade-offs
 
-- **Fixed Size**: The size of an array is fixed upon creation, which can lead to wasted memory or insufficient memory if the capacity is exceeded.
+- **Fixed Size**: The size of an array **is fixed upon creation**, which can lead to wasted memory or insufficient memory if the capacity is exceeded.
+
 - **Performance**: Accessing elements in an array is efficient, but inserting or deleting elements, especially in the middle, can be costly in terms of time complexity.
+
+- ✅ Good to access elements
+- ❌ Bad to insertion and deletion, specially in the middle
 
 ## Time Complexity Table
 
