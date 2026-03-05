@@ -14,6 +14,7 @@ This repository is a didactic reference for JavaScript and TypeScript syntax, be
 
 - control-structures: conditionals and loops
 - data-storage: variables, destructuring, shorthand, template literals, types
+- data-storage/arrays: array creation and initialization (Chapter 3)
 - functions: params, return, arrow, rest, spread
 - modules: CommonJS, AMD, ESM, bundlers, tree shaking, Node support
 - object-oriented: classes, access modifiers, getters/setters, overrides, interfaces
