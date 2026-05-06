@@ -7,7 +7,7 @@
 // Boolean = when value is true, is read as true, and when false is read as false
 
 // Number =
-// +0, -O or Nan is read as false
+// +0, -O or NaN is read as false
 // any other value is read as true
 
 // String = if lenght >= 1 is read as true, if empty (lenght = 0) is read as false
@@ -16,7 +16,7 @@
 
 // There is a prank:
 var newBoolean = new Boolean(false);
-var newString = new String('');
+var newString = new String("");
 var newNumber = new Number(NaN);
 var newObject = {};
 
