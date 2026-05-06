@@ -71,7 +71,7 @@ Below is the detailed chapter/topic outline (text-only).
 
 - ✅ Why should we use arrays?
 - ✅ Creating and initializing arrays
-- Accessing elements and iterating over an array
+- ✅ Accessing elements and iterating over an array
 - Adding elements
 - Inserting an element at the end of the array
 - Using the `push` method
