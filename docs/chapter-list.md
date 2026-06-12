@@ -77,7 +77,7 @@ Below is the detailed chapter/topic outline (text-only).
 - ✅ Using the `push` method
 - ✅ Inserting an element at the first position
 - ✅ Using the `unshift` method
-- Removing elements
+- ✅ Removing elements
 - Removing an element from the end of the array
 - Removing an element from the first position
 - Using the `shift` method
