@@ -9,11 +9,11 @@ console.log("after index append:", fruits); // ["apple", "banana", "cherry"]
 
 // 2) push adds one or more items to the end and returns the new length.
 const lengthAfterPush = fruits.push("date", "fig");
-console.log("after push:", fruits, "new length:", lengthAfterPush);
+console.log("after push:", fruits, "new length:", lengthAfterPush); // ["apple", "banana", "cherry", "date", "fig"] new length: 5
 
 // 3) unshift adds one or more items to the beginning and returns the new length.
 const lengthAfterUnshift = fruits.unshift("avocado");
-console.log("after unshift:", fruits, "new length:", lengthAfterUnshift);
+console.log("after unshift:", fruits, "new length:", lengthAfterUnshift); // ["avocado", "apple", "banana", "cherry", "date", "fig"] new length: 6
 
 // End insertion is usually cheaper than start insertion.
 // Appending is amortized O(1), prepending is O(n) due to element shifts.
